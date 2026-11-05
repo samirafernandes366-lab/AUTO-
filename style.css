@@ -1,0 +1,300 @@
+/*ESTILO GERAL DO SITE*/
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+/*TAMANHO DA IMAGEM DO CARRO*/
+.carro-destaque {
+    width: 600px;
+}
+/* MENU DE NAVEGAÇÃO */
+ nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    background-color: #151515;
+ }
+/*ESTILO DOS LINKS DO MEU */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+/*EFEITO AO PASSAR O MOUSE*/
+nav a:hover {
+     color: #e10600;
+     transition:0.3s;
+}
+/*CABEÇALHO DO SITE*/
+header {
+    text-align: center;
+    padding: 40px 20px;
+}
+/*NOME DA EMPRESA*/
+header h1{
+    font-size: 40px;
+    color:#e10600;
+    letter-spacing: 4px;
+
+}
+
+/*FRASE DO CABEÇALHO*/
+header p{
+    color: #b5b5b5;
+    font-size: 16px;
+}
+/*ORGANIZAÇÃO DA SEÇÃO PRINCIPAL*/
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 60px;
+}
+/*TAMANHO DO CARRO*/
+.carro-destaque{
+    width: 55%;
+    max-width: 700px;
+}
+/*TEXTO DA SEÇÃO*/
+section h2{
+    font-size: 45px;
+}
+section p{
+    font-size: 18px;
+}
+/*DESTAQUE DA SEÇÃO*/
+section{
+    background-color: #151515;
+    border-radius: 15px;
+    padding: 40px;
+}
+/*DESTAQUE DO TITULO*/
+section h2{
+    color: #e10600;
+    letter-spacing: 1px;
+}
+/*IMAGEM COM ACABAMENTO PREMIUM*/
+.carro-destaque{
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(225, 7, 0, 0.829);
+}
+/*TITULO DOS VEICULOS*/
+.veiculos-destaque h2{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+/*CARD INDIVIDUAL DO CARRO*/
+.card-carro{
+    background-color: #202020;
+    padding: 25px;
+    border-radius: 12px;
+    max-width: 350px;
+    text-align: center;
+    border: 1px solid #000000;
+}
+/*IMAGEM DO CARRO*/
+.card-carro img{
+    width: 100%;
+    border-radius: 8px;
+}
+/*NOME DO VEICULO*/
+.card-carro h3{
+    font-size: 24px;
+    color:white;
+}
+/*DESCRIÇÃO DO VEICULO*/
+.card-carro p{
+    color: #b5b5b5;
+    font-size: 15px;
+}
+/*BOTAO DE CONSULTA DE CARRO*/
+.card-carro a {
+    display: inline-block;
+    background-color: #e10600;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+/*EFEITO DO BOTAO*/
+.card-carro a:hover{
+    background-color: #b00000;
+    transition: 0.3s;
+}
+/*ORGANIZAÇÃO DOS CARROS*/
+.veiculos-destaque{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+/*MELHORAR TITULO PRINCIPAL*/
+section h2 {
+    font-size: 38px;
+    line-height: 1.2;
+}
+/*MELHORAR TEXTO PRINCIPAL*/
+section p{
+    font-size: 18px;
+    line-height: 1.8;
+}
+/*BANNER PRINCIPAL*/
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    min-height: 500px;
+}
+/*TITULO DO BANNER*/
+.hero-texto{
+    flex:1;
+}
+/*TITULO DO BANNER*/
+.hero-texto h2{
+    font-size: 55px;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+/*TEXTO DO BANNER*/
+.hero-texto p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+/*IMAGEM DO BANNER*/
+.hero .carro-destaque{
+    width: 55%;
+    max-width: 700px;
+}
+/* EFEITO NO BANNER / PROPAGANDA */
+.banner:hover {
+    background-color: red;
+    transition: 0.3s;
+}
+/* FUNDO DA PROPAGANDA */
+.banner {
+    transition: background-color 0.3s;
+}
+
+.banner:hover {
+    background-color: rgb(211, 0, 0);
+}
+/* EFEITO VERMELHO NO CARD */
+.card-carro {
+    background-color: #151515;
+    transition: background-color 0.3s ease;
+}
+
+.card-carro:hover {
+    background-color: rgb(0, 0, 0) !important;
+}
+/* BOTÃO WHATSAPP FLUTUANTE */
+.whatsapp-flutuante {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    z-index: 9999;
+}
+
+
+/*PADRONIZAR FOTOS*/
+.card-carro img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+/* CORES OFICIAIS AUTO PRIME - CONTATO */
+
+/* Fundo da página */
+body {
+    background-color: #080808;
+    color: #ffffff;
+}
+
+/* Títulos */
+.contato h1,
+.contato h2 {
+    color: #d4af37;
+}
+
+/* Textos e labels */
+.contato p,
+.contato label {
+    color: #ffffff;
+}
+
+/* Campos */
+.contato input,
+.contato textarea,
+.contato select {
+    background-color: #171717;
+    color: #ffffff;
+    border: 1px solid #d4af37;
+}
+
+/* Botão */
+.contato button {
+    background-color: #d4af37;
+    color: #080808;
+}
+
+/* Destaque ao clicar */
+.contato input:focus,
+.contato textarea:focus {
+    border-color: #ffffff;
+    outline: none;
+}
+/* CAMPOS DO FORMULÁRIO - VISUAL PREMIUM */
+
+.contato input,
+.contato textarea,
+.contato select {
+    width: 100%;
+    padding: 14px;
+    margin-top: 8px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+/* EFEITO AO CLICAR NO CAMPO */
+.contato input:focus,
+.contato textarea:focus {
+    border-color: #ffffff;
+    box-shadow: 0 0 8px rgba(212, 175, 55, 0.4);
+}
+
+/* BOTÃO MAIS BONITO */
+.contato button {
+    padding: 14px 30px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* EFEITO AO PASSAR O MOUSE */
+.contato button:hover {
+    background-color: #ffffff;
+    color: #080808;
+}
